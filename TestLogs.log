@@ -97,3 +97,33 @@
 2022-04-15 18:25:24 INFO commonBO.MainMenuBO:61 -[Р’С…С–РґРЅС–, Р§РµСЂРЅРµС‚РєРё, РќР°РґС–СЃР»Р°РЅС–, РЎРїР°Рј, Р’РёРґР°Р»РµРЅС–, РќРµРїСЂРѕС‡РёС‚Р°РЅС–, Р’С–РґРјС–С‡РµРЅС–, Р’РєР»Р°РґРµРЅРЅСЏ]
 2022-04-15 18:25:24 INFO commonBO.MainMenuBO:64 -Check if icons are displayed on left menu
 2022-04-15 18:25:24 INFO commonBO.MainMenuBO:70 -Check if message counter is equal to the number of messages
+2022-04-15 19:02:47 INFO commonBO.MainMenuBO:11 -Fill login and password
+2022-04-15 19:02:47 INFO commonBO.MainMenuBO:13 -Click 'Continue' button
+2022-04-15 19:02:47 INFO commonBO.MainMenuBO:19 -Check if there are new emails in the mailbox
+2022-04-15 19:02:49 INFO commonBO.MainMenuBO:12 -Get unread letters number
+2022-04-15 19:02:49 INFO commonBO.MainMenuBO:47 -Check if 'Inbox' tab is selected
+2022-04-15 19:02:49 INFO commonBO.MainMenuBO:53 -Check if menu list contains 8 items
+2022-04-15 19:02:49 INFO commonBO.MainMenuBO:55 -Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+2022-04-15 19:02:54 INFO commonBO.MainMenuBO:61 -[Вхідні, Чернетки, Надіслані, Спам, Видалені, Непрочитані, Відмічені, Вкладення]
+2022-04-15 19:02:54 INFO commonBO.MainMenuBO:64 -Check if icons are displayed on left menu
+2022-04-15 19:02:54 INFO commonBO.MainMenuBO:70 -Check if message counter is equal to the number of messages
+2022-04-15 19:07:46 INFO commonBO.MainMenuBO:11 -Fill login and password
+2022-04-15 19:07:46 INFO commonBO.MainMenuBO:13 -Click 'Continue' button
+2022-04-15 19:07:46 INFO commonBO.MainMenuBO:19 -Check if there are new emails in the mailbox
+2022-04-15 19:07:47 INFO commonBO.MainMenuBO:12 -Get unread letters number
+2022-04-15 19:07:47 INFO commonBO.MainMenuBO:47 -Check if 'Inbox' tab is selected
+2022-04-15 19:07:47 INFO commonBO.MainMenuBO:53 -Check if menu list contains 8 items
+2022-04-15 19:07:48 INFO commonBO.MainMenuBO:55 -Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+2022-04-15 19:07:53 INFO commonBO.MainMenuBO:61 -[Р’С…С–РґРЅС–, Р§РµСЂРЅРµС‚РєРё, РќР°РґС–СЃР»Р°РЅС–, РЎРїР°Рј, Р’РёРґР°Р»РµРЅС–, РќРµРїСЂРѕС‡РёС‚Р°РЅС–, Р’С–РґРјС–С‡РµРЅС–, Р’РєР»Р°РґРµРЅРЅСЏ]
+2022-04-15 19:07:53 INFO commonBO.MainMenuBO:64 -Check if icons are displayed on left menu
+2022-04-15 19:07:53 INFO commonBO.MainMenuBO:70 -Check if message counter is equal to the number of messages
+2022-04-15 19:14:13 INFO commonBO.MainMenuBO:11 -Fill login and password
+2022-04-15 19:14:13 INFO commonBO.MainMenuBO:13 -Click 'Continue' button
+2022-04-15 19:14:14 INFO commonBO.MainMenuBO:19 -Check if there are new emails in the mailbox
+2022-04-15 19:14:15 INFO commonBO.MainMenuBO:12 -Get unread letters number
+2022-04-15 19:14:15 INFO commonBO.MainMenuBO:47 -Check if 'Inbox' tab is selected
+2022-04-15 19:14:15 INFO commonBO.MainMenuBO:53 -Check if menu list contains 8 items
+2022-04-15 19:14:15 INFO commonBO.MainMenuBO:55 -Check if menu consist of  'Inbox', 'Drafts', 'Sent', 'Spam' etc.
+2022-04-15 19:14:20 INFO commonBO.MainMenuBO:61 -[Вхідні, Чернетки, Надіслані, Спам, Видалені, Непрочитані, Відмічені, Вкладення]
+2022-04-15 19:14:20 INFO commonBO.MainMenuBO:64 -Check if icons are displayed on left menu
+2022-04-15 19:14:20 INFO commonBO.MainMenuBO:70 -Check if message counter is equal to the number of messages
