@@ -58,7 +58,7 @@ public class MainMenuBO extends GeneralBO {
         mainMenuList.menuList().forEach(el -> menuListNames.add(el.getText()));
 
         Thread.sleep(5000);
-        logger.info(MenuListEnum.getNamesOfItems());
+        //logger.info(MenuListEnum.getNamesOfItems());
         Assert.assertTrue(MenuListEnum.getNamesOfItems().equals(menuListNames));
 
         logger.info("Check if icons are displayed on left menu");
