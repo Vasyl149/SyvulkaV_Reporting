@@ -1,6 +1,7 @@
 package page.main;
 
 import io.qameta.allure.Step;
+import logging.LogLevels;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import page.AbstractPageObject;
@@ -13,8 +14,11 @@ public class InboxPage extends AbstractPageObject {
     private List<WebElement> unreadMails;
 
 
-    @Step
+    @Step("Get unread letters number")
     public List<WebElement> unreadMailList(){
+        //AbstractPageObject.logger1.info("Get unread letters number");
+        logger.log(LogLevels.INFO,"Get unread letters number");
+        //Allure.addAttachment("Message name","text/html","result432543");
         return unreadMails;
     }
 

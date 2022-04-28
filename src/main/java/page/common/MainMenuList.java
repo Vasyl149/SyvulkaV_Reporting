@@ -21,7 +21,7 @@ public class MainMenuList extends AbstractPageObject {
     @FindBy(css = "a[id='0']>span.sidebar__list-link-count")
     private WebElement counter;
 
-    @FindBy(css ="a[id='10002']")
+    @FindBy(css = "a[id='10002']")
     private WebElement draftsButton;
 
     @FindBy(css = "a[data-folder='10001']")
@@ -36,18 +36,18 @@ public class MainMenuList extends AbstractPageObject {
     @FindBy(css = "a[id='10002']>span.sidebar__list-link-count")
     private WebElement countOfDrafts;
 
-    @Step
-    public void composeButton(){
+    @Step("Click on 'Compose' button")
+    public void composeButton() {
         composeButton.click();
     }
 
     @Step
-    public WebElement getComposeButton(){
+    public WebElement getComposeButton() {
         return composeButton;
     }
 
-    @Step
-    public List<WebElement> menuList(){
+    @Step("Get menu list")
+    public List<WebElement> menuList() {
         return menuList;
     }
 
@@ -56,40 +56,39 @@ public class MainMenuList extends AbstractPageObject {
         inboxButton.click();
     }
 
-    @Step
-    public WebElement inboxTab(){
+    @Step("Get inbox tab")
+    public WebElement inboxTab() {
         return inboxButton;
     }
 
-    @Step
-    public String getCounter(){
+    @Step("Get count of unread mails")
+    public String getCounter() {
         return counter.getText();
     }
 
-    @Step
-    public void draftsButton(){
+    @Step("Click on 'Drafts' button ")
+    public void draftsButton() {
         draftsButton.click();
     }
 
-    @Step
-    public void sentItemsButton(){
+    @Step("Click on 'Sent' button")
+    public void sentItemsButton() {
         sentItemsButton.click();
     }
 
-    @Step
-    public void unreadButton(){
+    @Step("Click on 'Unread' button")
+    public void unreadButton() {
         unreadButton.click();
     }
 
 
-
-    @Step
-    public List<WebElement> iconList(){
+    @Step("Get icon list")
+    public List<WebElement> iconList() {
         return icons;
     }
 
     @Step
-    public int getCountOfDrafts(){
+    public int getCountOfDrafts() {
         return Integer.parseInt(countOfDrafts.getText());
 
     }

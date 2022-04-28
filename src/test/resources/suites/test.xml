@@ -1,11 +1,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="browser test" verbose="1" thread-count="99">
     
-    <test name="Test1">
+    <test name="Test_name">
 <!--        <parameter name="browser" value="chrome">-->
             <classes>
                 <class name="LeftMenuTest"/>
-<!--                <class name="MailTest"/>-->
+                <class name="MailTest"/>
             </classes>
 <!--        </parameter>-->
     </test>
